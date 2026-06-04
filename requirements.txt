@@ -1,2 +1,4 @@
-kafka-python-ng==2.2.2
-pyzmq==25.1.2
+kafka-python
+fuzzywuzzy
+python-Levenshtein
+zmq
