@@ -7,7 +7,7 @@ from model.data_classes.motorcycle import Motorcycle
 
 class VehicleFactory:
     @staticmethod
-    def create(vehicle_type: str) -> Vehicle:
+    def create_vehicle(vehicle_type: str) -> Vehicle:
         type_of_vehicle = vehicle_type.lower()
 
         for v in Vehicle.__subclasses__():

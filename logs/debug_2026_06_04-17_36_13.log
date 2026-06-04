@@ -1,0 +1,4 @@
+2026-06-04 17:36:13,994 - DEBUG - Created vehicle of type: car
+2026-06-04 17:36:13,994 - DEBUG - Created vehicle of type: truck
+2026-06-04 17:36:13,994 - DEBUG - Created vehicle of type: motorcycle
+2026-06-04 17:36:13,994 - DEBUG - Starting engines for all 3 vehicles...

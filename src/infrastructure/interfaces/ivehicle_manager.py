@@ -11,6 +11,3 @@ class IVehicleManager(ABC):
     def start_all(self):
         pass
 
-    @abstractmethod
-    def do_something(self):
-        pass

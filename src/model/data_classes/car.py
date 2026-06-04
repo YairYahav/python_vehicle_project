@@ -11,5 +11,4 @@ class Car(Vehicle):
         self._logger = LoggerFactory.get_logger_manager()
 
     def start_engine(self):
-        self._logger.log(ConstStrings.LOG_NAME_DEBUG,LoggerMessages.ENGINE_STARTED.format(self.type_of_vehicle))
-
+        self._logger.log(ConstStrings.LOG_NAME_DEBUG, f"Engine started for vehicle of type: {self.type_of_vehicle}")
