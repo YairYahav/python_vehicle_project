@@ -1,8 +1,8 @@
 from infrastructure.factories.infrastructure_factory import InfrastructureFactory
 from globals.consts.const_strings import ConstStrings
-from src.infrastructure.interfaces.ivehicle_manager import IVehicleManager
+from infrastructure.interfaces.ivehicle_manager import IVehicleManager
 from infrastructure.interfaces.izmq_server_manager import IZmqServerManager
-from src.model.managers.vehicle_manager import VehicleManager
+from model.managers.vehicle_manager import VehicleManager
 from infrastructure.interfaces.ilogger_manager import ILoggerManager
 from globals.enums.vehicle_enums import VehicleEnums
 

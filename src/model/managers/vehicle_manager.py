@@ -9,7 +9,7 @@ from globals.consts.const_strings import ConstStrings
 from globals.consts.consts import Consts
 from globals.consts.logger_messages import LoggerMessages
 from infrastructure.factories.logger_factory import LoggerFactory
-from src.infrastructure.factories.vehicle_factory import VehicleFactory
+from infrastructure.factories.vehicle_factory import VehicleFactory
 
 
 class VehicleManager(IVehicleManager):
